@@ -1,0 +1,19 @@
+
+/* .carousel-inner img {
+    width: 30%;
+    height: 30%; */
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h3 {
+    padding-top: 20px;
+    
+}
+
+.TextoExplicativo{
+    text-align: center;
+}
+.reservasBt{
+    text-align: center;
+}
