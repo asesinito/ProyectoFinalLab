@@ -63,3 +63,19 @@ body{
 #encontrarnos{
     text-align: center;
 }
+
+.btnf {
+    width:100%;
+	padding:8px 8px;
+	margin-top:16px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#000;
+	background-color:pink;
+}
+
+.calendario{
+    margin-top: 2px;
+    padding: 5px;
+}
