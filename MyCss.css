@@ -1,14 +1,10 @@
-
-/* .carousel-inner img {
-    width: 30%;
-    height: 30%; */
+*{box-sizing: border-box;}
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .h3 {
-    padding-top: 20px;
-    
+    padding-top: 20px;    
 }
 
 .TextoExplicativo{
@@ -16,6 +12,54 @@ body{
 }
 .reservasBt{
     text-align: center;
-.h1{
+}
+/*.column {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}*/
+
+.intruduccion {
+    text-align: center;
+}
+@media (max-width: 960px) {
+    .contenedor {
+        width: auto;
+    }
+    .column {
+        float: none;
+        width:auto;    
+    }
+}
+.contenedor__carousel {  
+    margin-left: auto;
+    margin-right: auto; 
+    min-width: 150px;
+    max-width: 960px;
+}
+.formulario {
+        width:300px;
+        padding:16px;
+        border-radius:10px;
+        margin:auto;
+        background-color: pink;
+}
+.volerBtn {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.reservasBt {
+    text-align: center;
+    padding-top: 50px;
+}
+#map{
+    height: 400px;
+    width: 50%;
+    margin: auto;
+}
+
+#encontrarnos{
     text-align: center;
 }
