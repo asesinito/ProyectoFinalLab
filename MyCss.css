@@ -13,12 +13,10 @@ body{
 .reservasBt{
     text-align: center;
 }
-/*.column {
-    float: left;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 10px;
-}*/
+.textoExplicativo {
+    display: flex;
+    justify-content: center;
+}
 
 .intruduccion {
     text-align: center;
